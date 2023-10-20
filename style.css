@@ -151,29 +151,10 @@ ul li a:hover{
     color: var(--text-color)
 }
 
-
-/* social-links */
-#social-links{
-    display: flex;
-    justify-content: center;
-    
-
-    padding: 2.4rem 0;
-    font-size: 2.4rem;
-}
-
-#social-links a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.6rem;
-
-    transition: background 0.2s;
-    border-radius: 50%;
-}
-
-#social-links a:hover{
-    background: var(--highlight-color);
+li a .logo{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 1rem;
 }
 
 
